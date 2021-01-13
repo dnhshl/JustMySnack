@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">JustAButton</string>
-    <string name="buttonTxt">Klick me</string>
+    <string name="buttonTxt">Drück mich</string>
 </resources>
