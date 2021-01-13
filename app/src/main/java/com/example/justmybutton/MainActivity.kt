@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener {
-            Toast.makeText(applicationContext, "Guten Tag", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, getString(R.string.toastTxt), Toast.LENGTH_SHORT).show()
         }
     }
 }
