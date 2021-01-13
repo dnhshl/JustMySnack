@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener {
-            Toast.makeText(applicationContext, getString(R.string.toastTxt), Toast.LENGTH_SHORT).show()
+            Snackbar.make(button, getString(R.string.snackTxt), Snackbar.LENGTH_SHORT).show()
         }
     }
 }

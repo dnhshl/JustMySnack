@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">JustASnack</string>
     <string name="buttonTxt">Drück mich</string>
-    <string name="toastTxt">Guten Abend</string>
+    <string name="snackTxt">Guten Abend</string>
 </resources>
